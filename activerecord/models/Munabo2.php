@@ -26,7 +26,7 @@ class Munabo {
 
     public function  __construct($name)
     {
-
+        get_instance();
         if(empty($name))
 
         {
